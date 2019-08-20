@@ -1,0 +1,43 @@
+{
+  "name": "web-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "prod": "webpack --mode=production",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "lint": "./node_modules/.bin/eslint ./browse/main.js",
+    "test": "jest",
+    "test:e2e": "jest e2e",
+    "test:unit": "jest unit"
+  },
+  "dependencies": {
+    "vue": "^2.6.6",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/register": "^7.5.5",
+    "@vue/babel-preset-app": "^3.10.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
+    "vue-loader": "^15.7.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7",
+    "webpack-manifest-plugin": "^2.0.4"
+  }
+}
