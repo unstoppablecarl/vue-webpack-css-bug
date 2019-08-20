@@ -26,13 +26,8 @@ module.exports = {
     },
     optimization: {
         splitChunks: {
+            chunks: 'all',
             cacheGroups: {
-                styles: {
-                    name: 'styles',
-                    test: /\.(s?css|vue)$/,
-                    chunks: 'all',
-                    enforce: true,
-                },
                 vendor: {
                     name: 'vendor',
                     test: /[\\/]node_modules[\\/]/,

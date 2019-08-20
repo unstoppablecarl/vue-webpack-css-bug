@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/foo/design/main.scss","webpack:///./src/foo/components/Foo.vue?1262"],"names":[],"mappings":"AAAA;AACA;AACA,aAAa;;ACFb;AACA;AACA;AACA","file":"foo.css","sourcesContent":["/*    /foo/design/main.scss    */\n.foo-test {\n  color: red; }\n","/* foo component */\n.foo-component[data-v-57f6eb2f] {\n  color: green;\n}\n"],"sourceRoot":""}

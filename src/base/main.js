@@ -1,6 +1,6 @@
 import './design/main.scss'
 import Vue from 'vue'
 
-import test from './components/base';
+import test from './components/Base';
 
 new Vue(test)
