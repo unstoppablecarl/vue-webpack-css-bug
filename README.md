@@ -29,6 +29,16 @@ A `output/styles.js` file is created containing the following:
 /output/bar.js
 ```
 
+## Requirements
+
+The following files must be able to run without the `output/styles.js` dependency. Ideally the `styles.js` file would not be created at all.
+
+```
+/output/base.js
+/output/bar.js
+/output/bar.js
+```
+
 ## Gathered Info
 
 
