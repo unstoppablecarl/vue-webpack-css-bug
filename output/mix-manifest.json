@@ -1,8 +1,10 @@
 {
+  "/assets/web-client/bar.css": "/assets/web-client/bar-styles.css",
   "/assets/web-client/bar.js": "/assets/web-client/bar.js",
+  "/assets/web-client/base.css": "/assets/web-client/base-styles.css",
   "/assets/web-client/base.js": "/assets/web-client/base.js",
+  "/assets/web-client/foo.css": "/assets/web-client/foo-styles.css",
   "/assets/web-client/foo.js": "/assets/web-client/foo.js",
-  "/assets/web-client/styles.css": "/assets/web-client/styles.css",
-  "/assets/web-client/styles.js": "/assets/web-client/styles.js",
+  "/assets/web-client/runtime.js": "/assets/web-client/runtime.js",
   "/assets/web-client/vendor.js": "/assets/web-client/vendor.js"
 }

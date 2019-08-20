@@ -5,6 +5,8 @@
 </template>
 
 <script>
+    console.log('bar-component')
+
     export default {
         name: 'Bar',
     }

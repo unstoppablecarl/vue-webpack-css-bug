@@ -5,6 +5,8 @@
 </template>
 
 <script>
+    console.log('foo-component')
+
     export default {
         name: 'Foo',
     }

@@ -8,7 +8,7 @@ const mixManifestPath = '/assets/web-client/'
 const outputPath = path.resolve(__dirname, './output')
 
 const mode = 'development'
-const PROD = mode === 'production';
+const PROD = mode === 'production'
 
 module.exports = {
     mode: mode,
@@ -25,14 +25,9 @@ module.exports = {
         filename: PROD ? '[hash:8]-[name].js' : '[name].js',
     },
     optimization: {
+        runtimeChunk: 'single',
         splitChunks: {
             cacheGroups: {
-                styles: {
-                    name: 'styles',
-                    test: /\.(s?css|vue)$/,
-                    chunks: 'all',
-                    enforce: true,
-                },
                 vendor: {
                     name: 'vendor',
                     test: /[\\/]node_modules[\\/]/,
@@ -73,7 +68,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new VueLoaderPlugin(),
         new MiniCssExtractPlugin({
-            chunkFilename: PROD ? '[hash:8]-styles.css' : 'styles.css',
+            chunkFilename: PROD ? '[hash:8]-[name]-styles.css' : '[name]-styles.css',
         }),
         new ManifestPlugin({
             fileName: 'mix-manifest.json',

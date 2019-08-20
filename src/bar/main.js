@@ -3,4 +3,8 @@ import Vue from 'vue'
 
 import test from '@/bar/components/bar';
 
-new Vue(test)
+let el = document.getElementById('bar')
+new Vue({
+    render: h => h(test),
+}).$mount(el)
+
