@@ -29,20 +29,18 @@ A `output/styles.js` file is created containing the following:
 /output/bar.js
 ```
 
-`/output/styles.js` :
-
 ## Gathered Info
 
 
 PR claims to solve problem but is merged into webpack 5 branch (plugins required for vue do not work with webpack 5 yet)
-[https://github.com/webpack/webpack/pull/9040]
+https://github.com/webpack/webpack/pull/9040
 
 Probable root cause
-[https://github.com/webpack/webpack/issues/7300]
+https://github.com/webpack/webpack/issues/7300
 
 Issue in related mini-css-extract-plugin
-[https://github.com/webpack-contrib/mini-css-extract-plugin/issues/151]
+https://github.com/webpack-contrib/mini-css-extract-plugin/issues/151
 
 Plugins tested but do not solve the problem
-[https://www.npmjs.com/package/webpack-remove-empty-js-chunks-plugin]
-[https://www.npmjs.com/package/eliminate-empty-chunk-file-webpack-plugin]
+https://www.npmjs.com/package/webpack-remove-empty-js-chunks-plugin
+https://www.npmjs.com/package/eliminate-empty-chunk-file-webpack-plugin
