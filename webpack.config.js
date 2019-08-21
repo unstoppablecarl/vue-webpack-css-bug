@@ -22,6 +22,7 @@ module.exports = {
     },
     output: {
         path: outputPath,
+        publicPath: '/output/',
         filename: PROD ? '[hash:8]-[name].js' : '[name].js',
     },
     optimization: {
