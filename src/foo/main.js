@@ -1,6 +1,9 @@
 import './design/main.scss'
+
 import Vue from 'vue'
+import test from './components/Foo';
 
-import test from './components/foo';
-
-new Vue(test)
+let el = document.getElementById('foo')
+new Vue({
+    render: h => h(test),
+}).$mount(el)

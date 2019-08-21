@@ -2,28 +2,11 @@
 .base {
   color: purple; }
 
-/* base component */
-.base-component[data-v-29a34776] {
-  color: green;
-}
-
 /*    /foo/design/main.scss    */
 .foo-test {
   color: red; }
-
-/* foo component */
-.foo-component[data-v-16835962] {
-  color: green;
-}
 
 /*    /bar/design/main.scss    */
 .bar-test {
   color: red; }
 
-/* bar component */
-.bar-component[data-v-144600a2] {
-  color: green;
-}
-
-
-/*# sourceMappingURL=styles.css.map*/
