@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/bar/design/main.scss","webpack:///./src/bar/components/bar.vue?b11e"],"names":[],"mappings":"AAAA;AACA;AACA,aAAa;;ACFb;AACA;AACA;AACA","file":"bar.css","sourcesContent":["/*    /bar/design/main.scss    */\n.bar-test {\n  color: red; }\n","/* bar component */\n.bar-component[data-v-144600a2] {\n  color: green;\n}\n"],"sourceRoot":""}

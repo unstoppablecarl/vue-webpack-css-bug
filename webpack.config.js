@@ -25,7 +25,6 @@ module.exports = {
         filename: PROD ? '[hash:8]-[name].js' : '[name].js',
     },
     optimization: {
-        runtimeChunk: 'single',
         splitChunks: {
             cacheGroups: {
                 vendor: {
@@ -68,7 +67,7 @@ module.exports = {
         new CleanWebpackPlugin(),
         new VueLoaderPlugin(),
         new MiniCssExtractPlugin({
-            chunkFilename: PROD ? '[hash:8]-[name]-styles.css' : '[name]-styles.css',
+            chunkFilename: PROD ? '[hash:8]-[name].css' : '[name].css',
         }),
         new ManifestPlugin({
             fileName: 'mix-manifest.json',
