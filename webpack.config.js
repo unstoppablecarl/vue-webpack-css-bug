@@ -26,6 +26,7 @@ module.exports = {
         filename: PROD ? '[hash:8]-[name].js' : '[name].js',
     },
     optimization: {
+        runtimeChunk: 'single',
         splitChunks: {
             cacheGroups: {
                 vendor: {
