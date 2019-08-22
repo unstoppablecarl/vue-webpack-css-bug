@@ -1,16 +1,18 @@
 <template>
-    <div>
-        Foo Component
+    <div class="foo-container">
+        <div class="foo-component">
+            Foo Component
 
-        <button @click="toggle">Test Foo</button>
-        <strong>
-            <template v-if="fooActive">
-                Foo Active
-            </template>
-            <template v-else>
-                Foo Inactive
-            </template>
-        </strong>
+            <button @click="toggle">Toggle</button>
+            <strong>
+                <template v-if="fooActive">
+                    Foo Active
+                </template>
+                <template v-else>
+                    Foo Inactive
+                </template>
+            </strong>
+        </div>
 
         <fuzz/>
         <shared/>
@@ -22,8 +24,8 @@
     import { mapGetters } from 'vuex'
 
     const Shared = () => import(
-      /* webpackChunkName: "shared/component" */
-      '@base/components/Shared'
+      /* webpackChunkName: "shared/widget" */
+      '@common/components/Widget'
       )
     console.log('foo-component')
 
@@ -44,6 +46,7 @@
 <style scoped lang="scss">
     /* foo component */
     .foo-component {
-        color: green;
+        padding: 3px;
+        border: 1px solid #000;
     }
 </style>

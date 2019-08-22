@@ -1,17 +1,34 @@
 <html lang="en">
 <head>
+    <!-- always included -->
+    <link rel="stylesheet" type="text/css" href="/output/base.css">
+
+    <!-- included on pages that use foo -->
+    <link rel="stylesheet" type="text/css" href="/output/foo.css">
+
+    <!-- included on pages that use bar -->
+    <link rel="stylesheet" type="text/css" href="/output/bar.css">
+
 </head>
 <body>
 
-<div id="base"></div>
-<div id="foo"></div>
-<div id="bar"></div>
+<div class="container">
+    <div id="base"></div>
+    <div id="foo"></div>
+    <div id="bar"></div>
+</div>
 
+<!-- always included -->
 <script src="./output/runtime.js"></script>
 <script src="./output/vendor.js"></script>
 
+<!-- always included -->
 <script src="./output/base.js"></script>
+
+<!-- included on pages that use foo -->
 <script src="./output/foo.js"></script>
+
+<!-- included on pages that use bar -->
 <script src="./output/bar.js"></script>
 
 </body>

@@ -29,7 +29,7 @@ module.exports = {
         runtimeChunk: 'single',
         splitChunks: {
             cacheGroups: {
-                chunks: 'async',
+                //chunks: 'async',
                 //
                 //stuff: {
                 //    name: 'stuff',
@@ -94,6 +94,7 @@ module.exports = {
         extensions: ['.vue', '.js', '.jsx', '.json', '.scss', '.css'],
         alias: {
             '@base': path.resolve(__dirname, './src/base'),
+            '@common': path.resolve(__dirname, './src/common'),
             '@foo': path.resolve(__dirname, './src/foo'),
             '@bar': path.resolve(__dirname, './src/bar'),
         },

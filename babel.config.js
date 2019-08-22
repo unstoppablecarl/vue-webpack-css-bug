@@ -16,7 +16,8 @@ module.exports = {
             'alias': {
                 '@base': './src/base',
                 '@foo': './src/foo',
-                '@bar': './src/bar'
+                '@bar': './src/bar',
+                '@common': './src/common'
             }
         }],
         '@babel/plugin-syntax-dynamic-import',

@@ -1,18 +1,17 @@
 <template>
     <div>
-        Base Component
+        <h1>Base Component</h1>
         <shared/>
     </div>
 </template>
 
 <script>
-    //import Shared from '@base/components/Shared'
     import '@base/design/main.scss'
     const Shared = () => import(
-      /* webpackChunkName: "shared/component" */
-      '@base/components/Shared'
+      /* webpackChunkName: "shared/widget" */
+      '@common/components/Widget'
       )
-    console.log('base-component')
+    console.log('loading: base-component')
 
     export default {
         name: 'Base',

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bar-component">
         Bar Component
         <button @click="toggle">Test</button>
         <strong>
@@ -16,7 +16,7 @@
 <script>
     import { mapGetters } from 'vuex'
 
-    console.log('bar-component')
+    console.log('loading: bar-component')
 
     export default {
         name: 'Bar',
@@ -34,6 +34,6 @@
 <style scoped lang="scss">
     /* bar component */
     .bar-component {
-        color: green;
+        color: teal;
     }
 </style>
