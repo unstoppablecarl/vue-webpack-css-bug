@@ -33,6 +33,8 @@ The following files must be able to run without the `output/styles.js` dependenc
 /output/bar.js
 ```
 
+The `styles.css` file current contains exactly the correct styles in the correct order. Any solution to the above problem must maintain the current output of the `styles.css` file.
+
 ## Gathered Info
 
 
