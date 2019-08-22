@@ -15,12 +15,6 @@ Looking for a solution to solve this problem in webpack 4.39.2
 
 ## Problem
 
-A `output/styles.js` file is created containing the following:
-```
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["styles"],[]]);
-//# sourceMappingURL=styles.js.map
-```
-
 `/output/styles.js` is a dependency of the following files (must be included on the page for the following files to function):
 
 ```
