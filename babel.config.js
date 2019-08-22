@@ -14,7 +14,9 @@ module.exports = {
         ['module-resolver', {
             'root': ['./src'],
             'alias': {
-                '@': './src'
+                '@base': './src/base',
+                '@foo': './src/foo',
+                '@bar': './src/bar'
             }
         }],
         '@babel/plugin-syntax-dynamic-import',

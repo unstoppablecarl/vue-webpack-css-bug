@@ -1,9 +1,11 @@
-import './design/main.scss'
+import '@foo/design/main.scss'
 
 import Vue from 'vue'
-import test from './components/foo';
+import test from '@foo/components/foo';
+import store from '@foo/store'
 
 let el = document.getElementById('foo')
 new Vue({
+    store: store(),
     render: h => h(test),
 }).$mount(el)
